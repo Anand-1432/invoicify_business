@@ -2,7 +2,7 @@ const express = require("express");
 const path = require('path');
 const app = express();
 
-const staticpath = path.join(__dirname, "./frontend/build");
+const staticpath = path.join(__dirname, "./build");
 
 console.log(staticpath);
 
